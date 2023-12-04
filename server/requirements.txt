@@ -1,0 +1,9 @@
+Flask
+pymongo
+python-engineio
+python-socketio
+Flask-socketIO
+opencv-python
+torchvision
+dill
+pandas
