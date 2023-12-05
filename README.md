@@ -31,6 +31,16 @@ PCB 생산 자동화 공정에서 불량판단 공정으로 추가되어 불량 
 <img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/82c15203-6f1b-460c-b88b-c70e5a6bfb5f  width="400" height="300"/> <br>
 <img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/bc1f5313-a964-458e-8f73-713f993f3284  width="400" height="300"/> <br>
 
+## 학습 · 배포를 위한 SW 및 HW
+- 필요 SW    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;모델 학습 및 추론: Python, Jupyter Notebook, Flask    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;연합학습 서버 배포: Flask, MongoDB, AWS, Docker   
+- 필요 패키지 – numpy, pandas, tensorflow, pytorch, matplotlib, sklearn, flask, requests, socketio, ultralytics   
+- 분석 환경 – [OS]Linux #86 -Ubuntu SMP   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GPU] CUDA 11.3,    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[PYTHON] 3.8,    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tensorflow] 2.7   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RAM] 32GB   
 
 
 ## PPT
