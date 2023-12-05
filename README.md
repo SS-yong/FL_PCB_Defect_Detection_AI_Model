@@ -27,9 +27,10 @@ PCB 생산 자동화 공정에서 불량판단 공정으로 추가되어 불량 
    
    
 ## 데이터셋(샘플)
-![77f0bf88dbda3e03dbfbd42418d07a38-3](https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/bc1f5313-a964-458e-8f73-713f993f3284)
-![77f0bf88dbda3e03dbfbd42418d07a38-2](https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/82c15203-6f1b-460c-b88b-c70e5a6bfb5f)
-![77f0bf88dbda3e03dbfbd42418d07a38-1](https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/19e0f6e6-97ea-4222-9219-989085afe3cb)
+<img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/19e0f6e6-97ea-4222-9219-989085afe3cb  width="500" height="400"/> 
+<img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/82c15203-6f1b-460c-b88b-c70e5a6bfb5f  width="500" height="400"/> <br>
+<img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/bc1f5313-a964-458e-8f73-713f993f3284  width="500" height="400"/> <br>
+
 
 
 ## PPT
