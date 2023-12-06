@@ -40,7 +40,20 @@ PCB 생산 자동화 공정에서 불량판단 공정으로 추가되어 불량 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GPU] CUDA 11.3,    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[PYTHON] 3.8,    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tensorflow] 2.7   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RAM] 32GB   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[RAM] 32GB
+
+## Result 
+- ./Inference(Final) : 모델 시연(Test) Flow
+- ./result_clf_img/images : Image Classification 결과; "불량"으로 판정된 PCB
+- ./result_clf_img/inference : Object Detection 결과; ./result_clf_img/images 경로에 있는 PCB의 불량 위치 검출
+- ./Image_Classification : Image Classification 결과 (Client 설정 가능; Client1, Client2, or All)
+- ./Object_Detection_C1 : (Client1) FL Object Detection
+- ./Object_Detection_C2 : (Client2) FL Object Detection
+- ./Object_Detection_Central : 중앙집중형 Object Detection (All)
+- ./yolov5/runs : 각 Client에 따른 Object Detection Result
+- ./model_save_C1_PCB_CLF : (Client 1) Image Classification Model
+- ./model_save_C2_PCB_CLF : (Client 2) Image Classification Model
+- ./model_save_PCB_CLF : (All) Image Classification Model
 
 
 ## PPT
