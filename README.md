@@ -12,24 +12,11 @@
 대량의 PCB 양산공정에 있어 표명 가공 불량의 발생을 판별하고 이를 제거하기 위한 목적   
 대량의 PCB를 사람의 눈으로 불량을 판별하기 어려움   
 AI 영상 기술을 활용하여 PCB 표면 불량 판단   
-   
-   
-## 최종 성과물
+
 PCB 생산 자동화 공정에서 불량판단 공정으로 추가되어 불량 PCB를 검출하고 이를 폐기시키는 작업 수행   
 대량의 PCB를 대상으로 빠르게 불량을 판단하여야 하며, 애매한 형태의 불량 유형을 보이기에 AI 기술을 적용하는 것이 필수적   
 첨부된 PCB의 경우 1달에 3억개에 달하는 PCB 생산 규모   
 따라서 자동화된 불량 판단 기술로 AI 영상 기술을 적용 필수   
-   
-   
-## 데이터 설명
-생산 과정에서 가장 많이 발생하는 박리(DELAMINATION), 스크래치(SCARTCH), 들뜸(POPCORN) 불량에 대한 이미지 데이터   
-각 종류별 불량이 중복하여 존재할 수 있으며, 조명에 의한 간섭이 있음
-   
-   
-## 데이터셋(샘플)
-<img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/19e0f6e6-97ea-4222-9219-989085afe3cb  width="400" height="300"/> 
-<img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/82c15203-6f1b-460c-b88b-c70e5a6bfb5f  width="400" height="300"/> <br>
-<img src=https://github.com/SS-yong/FL_PCB_Defect_Detection_AI_Model/assets/108441950/bc1f5313-a964-458e-8f73-713f993f3284  width="400" height="300"/> <br>
 
 ## 학습 · 배포를 위한 SW 및 HW
 - 필요 SW    
